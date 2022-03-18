@@ -1,8 +1,6 @@
-body {
+html {
+  box-sizing: border-box;
   background-color: #fdf6e3;
-}
-
-header, footer {
   font-size: 1.5rem;
 }
 
@@ -42,8 +40,9 @@ nav ul {
   color: #fff;
 }
 
-.no-highlight {
+*, .no-highlight {
   background-color: #719e07;
+  box-sizing: inherit;
 }
 
 ul li > .external {
