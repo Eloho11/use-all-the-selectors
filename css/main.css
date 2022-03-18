@@ -44,35 +44,35 @@ nav ul {
   background-color: #b58900;
 }
 
-.dfn + strong {
+.facts > .dfn + strong {
   color: #fff;
 }
 
-*, .no-highlight {
+*, .favs {
   background-color: #719e07;
   box-sizing: inherit;
 }
 
-ul li > .external {
+[rel="external"] {
   background-color: #2694d8;
 }
 
-h2 ol + li {
+ol li:first-child {
   color: #719e47;
 }
 
-h2 ol li {
+ol li:last-child{
   color: #2aa198;
 }
 
-ul li:nth-child(even) {
+.types li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-ul li:nth-child(odd) {
+.types li:nth-child(even) {
   background-color: #586e75;
 }
 
-ul li:nth-child(3) {
+.types li:nth-child(3) {
   background-color: #d04b16;
 }
